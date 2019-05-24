@@ -22,8 +22,7 @@ export default () => (
               <span><Icon type="home" theme="filled" /> The 2018–19 UEFA Champions League</span>
             </Col>
             <Col span={12} md={12} xs={0}>
-            <a className="ml-30 float-right" style={{ color: '#ffffff' }}><Icon type="user"/> Login/Register</a>
-              
+              <a className="ml-30 float-right" style={{ color: '#ffffff' }}><Icon type="user" /> Login/Register</a>
             </Col>
           </Row>
         </Col>
@@ -32,25 +31,25 @@ export default () => (
 
     <Row justify="space-around" type="flex" >
       <Col span={20} style={{
-              textAlign: 'right',
-              paddingTop: '30px',
-              height: 50,
-              display: 'flex',
-              justifyContent: 'flex-end',
-              textTransform: 'uppercase',
-              color: '#162E58' 
-              }}>
+        textAlign: 'right',
+        paddingTop: '30px',
+        height: 50,
+        display: 'flex',
+        justifyContent: 'flex-end',
+        textTransform: 'uppercase',
+        color: '#162E58'
+      }}>
         <div style={{ width: 'fit-content', margin: 'auto 0px' }}>
           <Link href="/groups">
             <a>
-              Group stage
+              UEFA Clubs
             </a>
           </Link>
         </div>
         <div style={{ width: 'fit-content', margin: 'auto 0px' }}>
           <Link href="/">
             <a>
-              Competition schedule
+              Competition Schedule
             </a>
           </Link>
         </div>
